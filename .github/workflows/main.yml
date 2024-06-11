@@ -35,9 +35,6 @@ jobs:
       runs-on: ubuntu-latest
       needs: run_app
 
-      strategy:
-        matrix:
-          node-version: 18.x
       steps:
       - name: Install npm
         run: npm install
