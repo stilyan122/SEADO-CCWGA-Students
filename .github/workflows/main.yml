@@ -31,8 +31,7 @@ jobs:
     
     - name: Run app
       run: npm run
-
-    test_app:
+  test_app:
       runs-on: ubuntu-latest
       needs: run_app
 
